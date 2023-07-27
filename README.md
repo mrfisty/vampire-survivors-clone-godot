@@ -1,2 +1,2 @@
-# 2DSurvivorsCourse
+# Vampire Survivors clone created in Godot.
  
