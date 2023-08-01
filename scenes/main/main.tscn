@@ -10,7 +10,7 @@
 [ext_resource type="PackedScene" uid="uid://b3ldscc2opfd8" path="res://scenes/manager/arena_time_manager.tscn" id="2_6ejb1"]
 [ext_resource type="PackedScene" uid="uid://csuvo1dadql80" path="res://scenes/ui/experience_bar.tscn" id="2_min7g"]
 [ext_resource type="PackedScene" uid="uid://12tojn4ybptd" path="res://scenes/manager/expeience_manager.tscn" id="4_1fonj"]
-[ext_resource type="PackedScene" uid="uid://dhrsrxy807gxt" path="res://scenes/manager/upgrade_manager.tscn" id="6_n7tsc"]
+[ext_resource type="PackedScene" path="res://scenes/manager/upgrade_manager.tscn" id="6_n7tsc"]
 
 [node name="Main" type="Node"]
 script = ExtResource("1_cmauh")
