@@ -1,9 +1,8 @@
-res://scenes/main/main.tscn
-res://resources/tileset.tres
-res://scenes/manager/enemy_manager.gd
-res://scenes/ability/axe_ability/axe_ability.tscn
-res://scenes/ability/axe_ability_controller/axe_ability_controller.tscn
-res://scenes/ability/axe_ability_controller/axe_ability_controller.gd
 res://scenes/game_object/player/player.tscn
-res://scenes/ability/sword_ability_controller/sword_ability_controller.tscn
-res://scenes/ability/axe_ability/axe_ability.gd
+res://resources/tileset.tres
+res://scenes/manager/upgrade_manager.tscn
+res://resources/upgrades/axe.tres
+res://scenes/manager/upgrade_manager.gd
+res://scenes/main/main.tscn
+res://resources/upgrades/ability.gd
+res://scenes/game_object/player/player.gd
