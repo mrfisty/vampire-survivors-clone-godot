@@ -1,7 +1,4 @@
-res://scenes/main/main.tscn
+res://scenes/game_object/player/player.tscn
 res://resources/tileset.tres
-res://resources/upgrades/ability_upgrade.gd
-res://resources/upgrades/axe.tres
-res://resources/upgrades/sword_rate.tres
-res://scenes/manager/upgrade_manager.gd
-res://scenes/ability/axe_ability_controller/axe_ability_controller.tscn
+res://scenes/main/main.tscn
+res://scenes/game_object/player/player.gd

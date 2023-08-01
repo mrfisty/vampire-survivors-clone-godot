@@ -7,6 +7,8 @@ const ACCELERATION_SMOOTHING = 25
 @onready var health_component = $HealthComponent
 @onready var health_bar = $HealthBar
 @onready var abilities = $Abilities
+@onready var animation_player = $AnimationPlayer
+@onready var visuals = $Visuals
 
 var number_colliding_bodies = 0
 
@@ -29,6 +31,21 @@ func _process(delta):
 	
 	move_and_slide() 
 	
+	if movement_vector.x != 0 || movement_vector.y != 0:
+		animation_player.play("walk")
+	else:
+		animation_player.play("RESET")
+	
+#	var move_sign = sign(movement_vector.x)
+#	if move_sign == 0:
+#		visuals.scale = Vector2.ONE
+#	else:
+#		visuals.scale = Vector2(move_sign, 1)
+		
+	if movement_vector.x > 0:
+		visuals.set_scale(Vector2.ONE)
+	elif movement_vector.x < 0:
+		visuals.set_scale(Vector2(-1, 1))
 	
 func get_movement_vector():
 	var x_movement = Input.get_action_strength("move_right") - Input.get_action_strength("move_left")
