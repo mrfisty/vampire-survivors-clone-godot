@@ -1,4 +1,4 @@
-res://scenes/game_object/player/player.tscn
+res://scenes/game_object/basic_enemy/basic_enemy.tscn
 res://resources/tileset.tres
 res://scenes/main/main.tscn
-res://scenes/game_object/player/player.gd
+res://scenes/component/death_component.tscn
