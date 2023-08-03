@@ -2,3 +2,7 @@ res://scenes/game_object/basic_enemy/basic_enemy.tscn
 res://resources/tileset.tres
 res://scenes/main/main.tscn
 res://scenes/component/death_component.tscn
+res://scenes/component/death_component.gd
+res://scenes/game_object/basic_enemy/basic_enemy.gd
+res://scenes/game_object/player/player.tscn
+res://scenes/game_object/player/player.gd

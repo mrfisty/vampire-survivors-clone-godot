@@ -36,16 +36,10 @@ func _process(delta):
 	else:
 		animation_player.play("RESET")
 	
-#	var move_sign = sign(movement_vector.x)
-#	if move_sign == 0:
-#		visuals.scale = Vector2.ONE
-#	else:
-#		visuals.scale = Vector2(move_sign, 1)
+	var move_sign = sign(movement_vector.x)
+	if move_sign != 0:
+		visuals.scale = Vector2(move_sign, 1)
 		
-	if movement_vector.x > 0:
-		visuals.set_scale(Vector2.ONE)
-	elif movement_vector.x < 0:
-		visuals.set_scale(Vector2(-1, 1))
 	
 func get_movement_vector():
 	var x_movement = Input.get_action_strength("move_right") - Input.get_action_strength("move_left")
