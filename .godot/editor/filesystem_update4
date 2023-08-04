@@ -1,4 +1,8 @@
-res://scenes/main/main.tscn
+res://scenes/game_object/wizard_enemy/wizard_enemy.tscn
 res://resources/tileset.tres
 res://scenes/manager/enemy_manager.tscn
 res://scenes/manager/enemy_manager.gd
+res://scenes/main/main.tscn
+res://scenes/game_object/wizard_enemy/wizard_enemy.gd
+res://scenes/component/velocity_component.tscn
+res://scenes/component/velocity_component.gd
