@@ -1,3 +1,7 @@
 res://scenes/main/main.tscn
 res://resources/tileset.tres
 res://scenes/ui/arena_time_ui.tscn
+res://scenes/ui/floating_text.tscn
+res://scenes/ui/floating_text.gd
+res://scenes/component/hurt_box_component.tscn
+res://scenes/component/hurt_box_component.gd
