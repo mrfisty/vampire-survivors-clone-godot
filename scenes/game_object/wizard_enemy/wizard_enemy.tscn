@@ -1,4 +1,4 @@
-[gd_scene load_steps=13 format=3 uid="uid://dlq1r6he1rxet"]
+[gd_scene load_steps=16 format=3 uid="uid://dlq1r6he1rxet"]
 
 [ext_resource type="Script" path="res://scenes/game_object/wizard_enemy/wizard_enemy.gd" id="1_0i31n"]
 [ext_resource type="PackedScene" uid="uid://crbeqrkkfldog" path="res://scenes/component/health_component.tscn" id="1_v43tp"]
@@ -7,6 +7,47 @@
 [ext_resource type="Texture2D" uid="uid://b4qix6y12pvaf" path="res://scenes/game_object/wizard_enemy/wizard_enemy.png" id="3_goqoi"]
 [ext_resource type="PackedScene" uid="uid://c2oscv0b2scgn" path="res://scenes/component/vial_drop_component.tscn" id="4_d68l5"]
 [ext_resource type="PackedScene" uid="uid://bd81sujcrt7ul" path="res://scenes/component/hurt_box_component.tscn" id="4_nyuqn"]
+[ext_resource type="PackedScene" uid="uid://blv7dk7t8rr84" path="res://scenes/component/hit_flash_component.tscn" id="5_mi4v6"]
+[ext_resource type="Shader" path="res://scenes/component/hit_flash_component.gdshader" id="6_scct1"]
+
+[sub_resource type="Animation" id="Animation_desio"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Visuals/Sprite2D:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(0, 0)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Visuals/Sprite2D:rotation")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [0.0]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Visuals/Sprite2D:scale")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(1, 1)]
+}
 
 [sub_resource type="Animation" id="Animation_nebnp"]
 resource_name = "walk"
@@ -67,50 +108,16 @@ tracks/3/keys = {
 }]
 }
 
-[sub_resource type="Animation" id="Animation_desio"]
-length = 0.001
-tracks/0/type = "value"
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/path = NodePath("Visuals/Sprite2D:position")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/keys = {
-"times": PackedFloat32Array(0),
-"transitions": PackedFloat32Array(1),
-"update": 0,
-"values": [Vector2(0, 0)]
-}
-tracks/1/type = "value"
-tracks/1/imported = false
-tracks/1/enabled = true
-tracks/1/path = NodePath("Visuals/Sprite2D:rotation")
-tracks/1/interp = 1
-tracks/1/loop_wrap = true
-tracks/1/keys = {
-"times": PackedFloat32Array(0),
-"transitions": PackedFloat32Array(1),
-"update": 0,
-"values": [0.0]
-}
-tracks/2/type = "value"
-tracks/2/imported = false
-tracks/2/enabled = true
-tracks/2/path = NodePath("Visuals/Sprite2D:scale")
-tracks/2/interp = 1
-tracks/2/loop_wrap = true
-tracks/2/keys = {
-"times": PackedFloat32Array(0),
-"transitions": PackedFloat32Array(1),
-"update": 0,
-"values": [Vector2(1, 1)]
-}
-
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_nxena"]
 _data = {
 "RESET": SubResource("Animation_desio"),
 "walk": SubResource("Animation_nebnp")
 }
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_tdtrk"]
+resource_local_to_scene = true
+shader = ExtResource("6_scct1")
+shader_parameter/lerp_percent = null
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_jria6"]
 radius = 8.0
@@ -138,6 +145,11 @@ acceleration = 20.0
 
 [node name="VialDropComponent" parent="." node_paths=PackedStringArray("health_component") instance=ExtResource("4_d68l5")]
 health_component = NodePath("../HealthComponent")
+
+[node name="HitFlashComponent" parent="." node_paths=PackedStringArray("health_component", "sprite") instance=ExtResource("5_mi4v6")]
+health_component = NodePath("../HealthComponent")
+sprite = NodePath("../Visuals/Sprite2D")
+hit_flash_material = SubResource("ShaderMaterial_tdtrk")
 
 [node name="DeathComponent" parent="." node_paths=PackedStringArray("health_component", "sprite") instance=ExtResource("2_lmpld")]
 health_component = NodePath("../HealthComponent")
