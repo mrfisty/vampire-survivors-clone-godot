@@ -1,15 +1,4 @@
 res://scenes/main/main.tscn
-res://resources/tileset.tres
-res://resources/upgrades/sword_damage.tres
-res://resources/upgrades/axe_damage.tres
-res://scenes/manager/upgrade_manager.gd
-res://scripts/weighted_table.gd
-res://scenes/game_object/basic_enemy/basic_enemy.tscn
-res://scenes/ability/sword_ability_controller/sword_ability_controller.tscn
-res://scenes/ability/sword_ability_controller/sword_ability_controller.gd
-res://scenes/ability/axe_ability_controller/axe_ability_controller.tscn
-res://scenes/ability/axe_ability_controller/axe_ability_controller.gd
-res://scenes/component/hurt_box_component.tscn
-res://scenes/component/hurt_box_component.gd
-res://scenes/ui/ability_upgrade_card.tscn
 res://resources/theme/theme.tres
+res://resources/tileset.tres
+res://scenes/ui/ability_upgrade_card.tscn
