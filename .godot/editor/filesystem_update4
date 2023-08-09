@@ -2,3 +2,6 @@ res://scenes/main/main.tscn
 res://resources/theme/theme.tres
 res://resources/tileset.tres
 res://scenes/ui/ability_upgrade_card.tscn
+res://scenes/ui/ability_upgrade_card.gd
+res://scenes/ui/upgrade_screen.tscn
+res://scenes/ui/upgrade_screen.gd
