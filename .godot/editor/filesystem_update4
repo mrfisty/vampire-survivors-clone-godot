@@ -11,3 +11,5 @@ res://scenes/ability/axe_ability_controller/axe_ability_controller.tscn
 res://scenes/ability/axe_ability_controller/axe_ability_controller.gd
 res://scenes/component/hurt_box_component.tscn
 res://scenes/component/hurt_box_component.gd
+res://scenes/ui/ability_upgrade_card.tscn
+res://resources/theme/theme.tres
