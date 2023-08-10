@@ -7,3 +7,5 @@ res://scenes/ui/upgrade_screen.tscn
 res://scenes/ui/upgrade_screen.gd
 res://scenes/game_object/player/player.tscn
 res://scenes/ui/experience_bar.tscn
+res://scenes/ui/end_screen.tscn
+res://scenes/ui/end_screen.gd
