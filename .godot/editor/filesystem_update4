@@ -9,3 +9,7 @@ res://scenes/game_object/player/player.tscn
 res://scenes/ui/experience_bar.tscn
 res://scenes/ui/end_screen.tscn
 res://scenes/ui/end_screen.gd
+res://scenes/game_object/player/player.gd
+res://resources/upgrades/player_speed.tres
+res://scenes/manager/upgrade_manager.tscn
+res://scenes/manager/upgrade_manager.gd

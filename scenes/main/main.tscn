@@ -10,7 +10,7 @@
 [ext_resource type="PackedScene" uid="uid://b3ldscc2opfd8" path="res://scenes/manager/arena_time_manager.tscn" id="2_6ejb1"]
 [ext_resource type="PackedScene" uid="uid://csuvo1dadql80" path="res://scenes/ui/experience_bar.tscn" id="2_min7g"]
 [ext_resource type="PackedScene" uid="uid://12tojn4ybptd" path="res://scenes/manager/expeience_manager.tscn" id="4_1fonj"]
-[ext_resource type="PackedScene" path="res://scenes/manager/upgrade_manager.tscn" id="6_n7tsc"]
+[ext_resource type="PackedScene" uid="uid://bd21bggbonivp" path="res://scenes/manager/upgrade_manager.tscn" id="6_n7tsc"]
 [ext_resource type="PackedScene" uid="uid://dlq1r6he1rxet" path="res://scenes/game_object/wizard_enemy/wizard_enemy.tscn" id="7_eqygo"]
 [ext_resource type="PackedScene" uid="uid://bk6vm0pba675q" path="res://scenes/game_object/basic_enemy/basic_enemy.tscn" id="7_t6ex2"]
 
