@@ -1,7 +1,9 @@
-[gd_scene load_steps=7 format=3 uid="uid://dwdsapxwuonpt"]
+[gd_scene load_steps=9 format=3 uid="uid://dwdsapxwuonpt"]
 
 [ext_resource type="Script" path="res://scenes/ui/end_screen.gd" id="1_hnwc0"]
 [ext_resource type="PackedScene" uid="uid://ddrmyhklxwrtj" path="res://scenes/ui/sound_button.tscn" id="2_1s5fb"]
+[ext_resource type="AudioStream" uid="uid://qvpa61pnhsn2" path="res://assets/audio/jingles_victory.ogg" id="2_8ejgq"]
+[ext_resource type="AudioStream" uid="uid://crtoo3yxnipa0" path="res://assets/audio/jingles_defeat.ogg" id="3_cxh81"]
 
 [sub_resource type="Animation" id="Animation_qehwy"]
 length = 0.001
@@ -62,6 +64,16 @@ _data = {
 [node name="EndScreen" type="CanvasLayer"]
 process_mode = 3
 script = ExtResource("1_hnwc0")
+
+[node name="VictoryStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("2_8ejgq")
+volume_db = -5.0
+bus = &"sfx"
+
+[node name="DefeatStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("3_cxh81")
+volume_db = -5.0
+bus = &"sfx"
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 autoplay = "in"
