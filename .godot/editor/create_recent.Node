@@ -1,6 +1,7 @@
-VBoxContainer
 AnimationPlayer
 ColorRect
+CanvasLayer
+VBoxContainer
 MarginContainer
 PanelContainer
 Node

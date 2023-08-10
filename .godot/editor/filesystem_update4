@@ -13,3 +13,8 @@ res://scenes/game_object/player/player.gd
 res://resources/upgrades/player_speed.tres
 res://scenes/manager/upgrade_manager.tscn
 res://scenes/manager/upgrade_manager.gd
+res://scenes/ui/vignette.tscn
+res://scenes/ui/vignette.gdshader
+res://scenes/autoload/game_events.tscn
+res://scenes/autoload/game_events.gd
+res://scenes/ui/vignette.gd

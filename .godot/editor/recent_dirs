@@ -1,5 +1,5 @@
-res://scenes/component
 res://scenes/ui
+res://scenes/component
 res://resources/theme
 res://scenes/game_object/wizard_enemy
 res://scenes/ability/axe_ability
