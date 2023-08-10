@@ -10,3 +10,5 @@ res://scenes/ui/ability_upgrade_card.tscn
 res://scenes/ui/end_screen.gd
 res://scenes/manager/arena_time_manager.gd
 res://scenes/manager/arena_time_manager.tscn
+res://scenes/autoload/music_player.tscn
+res://scenes/autoload/music_player.gd
