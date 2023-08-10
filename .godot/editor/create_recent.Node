@@ -1,5 +1,6 @@
-AudioStreamPlayer2D
 AudioStreamPlayer
+Button
+AudioStreamPlayer2D
 AnimationPlayer
 ColorRect
 CanvasLayer
