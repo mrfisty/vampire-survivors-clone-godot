@@ -1,14 +1,5 @@
-res://scenes/main/main.tscn
 res://resources/theme/theme.tres
 res://resources/tileset.tres
-res://scenes/component/random_stream_player_component.tscn
-res://scenes/component/random_stream_player_component.gd
-res://scenes/ui/sound_button.tscn
-res://scenes/ui/sound_button.gd
-res://scenes/ui/end_screen.tscn
-res://scenes/ui/ability_upgrade_card.tscn
-res://scenes/ui/end_screen.gd
-res://scenes/manager/arena_time_manager.gd
-res://scenes/manager/arena_time_manager.tscn
-res://scenes/autoload/music_player.tscn
-res://scenes/autoload/music_player.gd
+res://scenes/ui/main_menu.tscn
+res://scenes/main/main.tscn
+res://scenes/ui/main_menu.gd
