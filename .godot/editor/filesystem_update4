@@ -1,5 +1,6 @@
+res://scenes/ui/options_menu.tscn
 res://resources/theme/theme.tres
 res://resources/tileset.tres
+res://scenes/ui/options_menu.gd
 res://scenes/ui/main_menu.tscn
-res://scenes/main/main.tscn
 res://scenes/ui/main_menu.gd

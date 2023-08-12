@@ -1,7 +1,8 @@
-MarginContainer
-PanelContainer
+HSlider
 Label
 VBoxContainer
+MarginContainer
+PanelContainer
 CanvasLayer
 Timer
 AudioStreamPlayer
