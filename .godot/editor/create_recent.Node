@@ -1,3 +1,5 @@
+CollisionShape2D
+Sprite2D
 HSlider
 Label
 VBoxContainer
@@ -11,8 +13,6 @@ AudioStreamPlayer2D
 AnimationPlayer
 ColorRect
 Node
-Sprite2D
 Node2D
-CollisionShape2D
 CharacterBody2D
 GPUParticles2D
