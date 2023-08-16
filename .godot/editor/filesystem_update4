@@ -1,6 +1,7 @@
-res://scenes/ui/options_menu.tscn
+res://scenes/ui/pause_menu.tscn
 res://resources/theme/theme.tres
 res://resources/tileset.tres
-res://scenes/ui/main_menu.tscn
-res://scenes/ui/end_screen.tscn
-res://scenes/ui/ability_upgrade_card.tscn
+res://scenes/ui/pause_menu.gd
+res://scenes/main/main.tscn
+res://scenes/main/main.gd
+res://scenes/ui/options_menu.tscn

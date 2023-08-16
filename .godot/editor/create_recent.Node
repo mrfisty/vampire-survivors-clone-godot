@@ -1,8 +1,9 @@
+AnimationPlayer
+VBoxContainer
 CollisionShape2D
 Sprite2D
 HSlider
 Label
-VBoxContainer
 MarginContainer
 PanelContainer
 CanvasLayer
@@ -10,7 +11,6 @@ Timer
 AudioStreamPlayer
 Button
 AudioStreamPlayer2D
-AnimationPlayer
 ColorRect
 Node
 Node2D
