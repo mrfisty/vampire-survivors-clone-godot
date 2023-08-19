@@ -12,3 +12,7 @@ res://scenes/ui/options_menu.tscn
 res://scenes/ui/options_menu.gd
 res://scenes/ui/end_screen.tscn
 res://scenes/ui/end_screen.gd
+res://scenes/autoload/meta_progression.tscn
+res://resources/meta_upgrades/meta_upgrade.gd
+res://resources/meta_upgrades/experience_gain.tres
+res://scenes/autoload/meta_progression.gd

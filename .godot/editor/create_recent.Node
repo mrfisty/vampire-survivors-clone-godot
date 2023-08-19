@@ -1,3 +1,4 @@
+Node
 AnimationPlayer
 ColorRect
 CanvasLayer
@@ -12,7 +13,6 @@ Timer
 AudioStreamPlayer
 Button
 AudioStreamPlayer2D
-Node
 Node2D
 CharacterBody2D
 GPUParticles2D
