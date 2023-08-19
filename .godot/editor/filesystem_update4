@@ -9,3 +9,7 @@ res://scenes/main/main.tscn
 res://scenes/main/main.gd
 res://scenes/ui/meta_upgrade_card.tscn
 res://scenes/ui/meta_upgrade_card.gd
+res://scenes/ui/meta_menu.tscn
+res://resources/meta_upgrades/experience_gain.tres
+res://resources/meta_upgrades/meta_upgrade.gd
+res://scenes/ui/meta_menu.gd
