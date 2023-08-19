@@ -7,3 +7,5 @@ res://scenes/manager/arena_time_manager.tscn
 res://scenes/manager/arena_time_manager.gd
 res://scenes/main/main.tscn
 res://scenes/main/main.gd
+res://scenes/ui/meta_upgrade_card.tscn
+res://scenes/ui/meta_upgrade_card.gd
