@@ -1,12 +1,12 @@
+Button
+Label
+HBoxContainer
 GridContainer
 VBoxContainer
 Control
 MarginContainer
-Label
 TextureRect
-HBoxContainer
 ProgressBar
-Button
 Node
 AnimationPlayer
 ColorRect

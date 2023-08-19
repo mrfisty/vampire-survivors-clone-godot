@@ -13,3 +13,10 @@ res://scenes/ui/meta_menu.tscn
 res://resources/meta_upgrades/experience_gain.tres
 res://resources/meta_upgrades/meta_upgrade.gd
 res://scenes/ui/meta_menu.gd
+res://scenes/ui/main_menu.gd
+res://scenes/autoload/screen_transition.gd
+res://scenes/ui/end_screen.tscn
+res://scenes/ui/end_screen.gd
+res://scenes/component/vial_drop_component.tscn
+res://scenes/component/vial_drop_component.gd
+res://scenes/game_object/basic_enemy/basic_enemy.tscn
