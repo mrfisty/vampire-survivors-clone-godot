@@ -1,3 +1,4 @@
+GPUParticles2D
 Timer
 Node
 Node2D
@@ -22,4 +23,3 @@ PanelContainer
 AudioStreamPlayer
 AudioStreamPlayer2D
 CharacterBody2D
-GPUParticles2D
