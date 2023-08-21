@@ -28,3 +28,5 @@ res://scenes/autoload/meta_progression.tscn
 res://scenes/autoload/meta_progression.gd
 res://scenes/main/main.tscn
 res://scenes/manager/arena_time_manager.tscn
+res://resources/upgrades/anvil_count.tres
+res://scenes/game_object/basic_enemy/basic_enemy.tscn
