@@ -6,12 +6,12 @@ Udemy - [Create a Complete 2D Survivors Style Game in Godot 4.](https://www.udem
 
 Assets - [Kenney](https://kenney.nl/assets)
 
-How to install: 
+# How to install: 
 
-Download the [TheArena.zip](https://github.com/mrfisty/vampire-survivors-clone-godot/blob/main/The%20Arena.zip). Extract. Run TheArena.exe.
+Download the [TheArena.zip](https://github.com/mrfisty/vampire-survivors-clone-godot/blob/main/The%20Arena.zip).
 
-How to play: 
+# How to play: 
 
-Movement - WASD
+Movement - **WASD**
 
-Survive for 5 minutes and you win.
+Survive for **5 minutes** and you win.
