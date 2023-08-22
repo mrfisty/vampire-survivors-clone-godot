@@ -1,11 +1,11 @@
 res://resources/meta_upgrades/experience_gain.tres::ee1a94b5b8728dcd5e65e5264a389e3d::1692584156::res://.godot/exported/133200997/export-8758f2ea95512ee1f7e1e1091956fc99-experience_gain.res
-res://resources/theme/theme.tres::59327513ce266ca83b4d7bbf7acbee1f::1692574260::res://.godot/exported/133200997/export-39f2e79bb7467ca5d0694492f70425e9-theme.res
+res://resources/theme/theme.tres::59327513ce266ca83b4d7bbf7acbee1f::1692673691::res://.godot/exported/133200997/export-39f2e79bb7467ca5d0694492f70425e9-theme.res
 res://resources/upgrades/axe.tres::3be70672368e596ac4118fd7705ddf4e::1690901472::res://.godot/exported/133200997/export-ab0581f00d2b5bde2cb461b7d2995284-axe.res
 res://resources/upgrades/axe_damage.tres::11a047e094ff61ae7a1a126070c66f4e::1691519359::res://.godot/exported/133200997/export-223ecbb57d7cdea268c223de4fdd0437-axe_damage.res
 res://resources/upgrades/player_speed.tres::0825149aaf371dc30b630d3df66d4026::1691643837::res://.godot/exported/133200997/export-130d72cbd08af3c227d2d87a7956b2d3-player_speed.res
 res://resources/upgrades/sword_damage.tres::fd6220ec0248620d08a29e803159965f::1691519324::res://.godot/exported/133200997/export-02d9751427f167e7857c3a9c56f5241e-sword_damage.res
 res://resources/upgrades/sword_rate.tres::bdfc977216f5f8e5fee186a6d0acf733::1690901591::res://.godot/exported/133200997/export-14abc63712efb4849fddb0c096bf6139-sword_rate.res
-res://resources/tileset.tres::8d68e7d4bba2f0f6e3a30682a65e461c::1692574260::res://.godot/exported/133200997/export-ee07272916b834d475c5c9cc7f9878a6-tileset.res
+res://resources/tileset.tres::8d68e7d4bba2f0f6e3a30682a65e461c::1692673691::res://.godot/exported/133200997/export-ee07272916b834d475c5c9cc7f9878a6-tileset.res
 res://scenes/ability/axe_ability/axe_ability.tscn::c17e553cde383f3bc3239c655fcb66c6::1690835558::res://.godot/exported/133200997/export-7530bf4f363396e9d6c013963c48ed6e-axe_ability.scn
 res://scenes/ability/axe_ability_controller/axe_ability_controller.tscn::78b611b4e9a5c813317b1b3b287a6ae5::1691541213::res://.godot/exported/133200997/export-ab1069557d3d4a19ec16d154b8f0b9e7-axe_ability_controller.scn
 res://scenes/ability/sword_ability/sword_ability.tscn::6482b9dbfd4b0dd98feb89ed80b618a9::1690238951::res://.godot/exported/133200997/export-4333fb6ae42e9d029b694e3da4480359-sword_ability.scn
@@ -29,7 +29,7 @@ res://scenes/game_object/experience_vial/experience_vial.tscn::e816594307e80f554
 res://scenes/game_object/game_camera/game_camera.tscn::3188fda9681e4baeb4bc2aec6a4c917c::1690185248::res://.godot/exported/133200997/export-74d9864af2f3de0db50cdca19e68886b-game_camera.scn
 res://scenes/game_object/player/player.tscn::20b52af69df0b1973349d92b3cba14e8::1692585520::res://.godot/exported/133200997/export-f0f47979a156d2f556ebd3a77a2a0816-player.scn
 res://scenes/game_object/wizard_enemy/wizard_enemy.tscn::e84671d2edc13c6baaaec88119a46a10::1692576276::res://.godot/exported/133200997/export-3e14f113456b44ddaf4faea2cb330ff4-wizard_enemy.scn
-res://scenes/main/main.tscn::d79cdedf5619fb05c40b8be20d124cff::1692589199::res://.godot/exported/133200997/export-f39996a6d27a38698d16421ab974097b-main.scn
+res://scenes/main/main.tscn::d79cdedf5619fb05c40b8be20d124cff::1692673934::res://.godot/exported/133200997/export-f39996a6d27a38698d16421ab974097b-main.scn
 res://scenes/manager/arena_time_manager.tscn::ea250601d5dfcf27fe0c94ff32ecaa4d::1692585520::res://.godot/exported/133200997/export-a6cf8ad39310c235424a7a13b522568d-arena_time_manager.scn
 res://scenes/manager/enemy_manager.tscn::d42aae319f2b95c3c4280d25cfd9fb8c::1692587552::res://.godot/exported/133200997/export-d20b81b8fc64eca748f128f8b5f67a48-enemy_manager.scn
 res://scenes/manager/expeience_manager.tscn::a5fccf32682c14ae854cacb232a393b2::1690228312::res://.godot/exported/133200997/export-e698e8355bd95ea20915f9274c1bd95f-expeience_manager.scn
